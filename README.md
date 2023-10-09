@@ -1,4 +1,4 @@
-# penggajian
+## Penggajian
 - Aplikasi yang menudukung tentang analisis kinerja gaji berdasarkan kehadiran dan status
 
 ## Bagi yang ingin mempelajari :
