@@ -1,6 +1,9 @@
 ## Penggajian
 - Aplikasi yang menudukung tentang analisis kinerja gaji berdasarkan kehadiran dan status
 
+## Apa yang baru?
+- Menambahkan Fitur TMT (notifikasi melalui email)
+
 ## Bagi yang ingin mempelajari :
 - Aplikasi dibangun menggunakan framework codeigniter dengan bahasa pemprograman yang berfokus ke PHP
 
