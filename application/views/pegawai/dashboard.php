@@ -47,6 +47,14 @@
 	    					<td><?php echo $p->nama_pegawai ?></td>
 	    				</tr>
 
+						<tr>
+	    					<td>Email</td>
+	    					<td>:</td>
+	    					<td><?php echo $p->email ?> <a class="" style="text-decoration: none; color: black;" data-toggle="modal1" data-target="#exampleModal1">
+								edit
+								</a></td>
+	    				</tr>
+
 	    				<tr>
 	    					<td>Jabatan</td>
 	    					<td>:</td>
@@ -100,6 +108,8 @@
       </div>
     </div>
   </div>
+  <!-- End Modal -->
+  
 </div>
 
 </div>

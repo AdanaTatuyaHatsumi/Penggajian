@@ -13,6 +13,7 @@
    	<tr>
    		<th class="text-center">No</th>
    		<th class="text-center">Nik</th>
+   		<th class="text-center">Email</th>
    		<th class="text-center">Nama Pegawai</th>
    		<th class="text-center">Jenis Kelamin</th>
    		<th class="text-center">Jabatan</th>
@@ -27,6 +28,7 @@
    	<tr>
    		<td><?php echo $no++ ?></td>
    		<td><?php echo $p->nik ?></td>
+		<td><?php echo $p->email ?></td>
    		<td><?php echo $p->nama_pegawai ?></td>
    		<td><?php echo $p->jenis_kelamin ?></td>
    		<td><?php echo $p->jabatan ?></td>
