@@ -17,6 +17,12 @@
    			</div>
 
    			<div class="form-group">
+   				<label>Email</label>
+   				<input type="text" name="email" class="form-control">
+   				<?php echo form_error('email','<div class="text-small text-danger"></div>') ?>
+   			</div>
+
+			   <div class="form-group">
    				<label>Nama Pegawai</label>
    				<input type="text" name="nama_pegawai" class="form-control">
    				<?php echo form_error('nama_pegawai','<div class="text-small text-danger"></div>') ?>

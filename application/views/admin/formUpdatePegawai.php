@@ -19,6 +19,12 @@
    				<?php echo form_error('nik','<div class="text-small text-danger"></div>') ?>
    			</div>
 
+			<div class="form-group">
+   				<label>Email</label>
+   				<input type="text" name="email" class="form-control" value="<?php echo $p->email ?>">
+   				<?php echo form_error('email','<div class="text-small text-danger"></div>') ?>
+   			</div>
+
    			<div class="form-group">
    				<label>Nama Pegawai</label>
    				<input type="text" name="nama_pegawai" class="form-control" value="<?php echo $p->nama_pegawai ?>">

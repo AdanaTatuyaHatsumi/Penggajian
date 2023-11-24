@@ -35,6 +35,7 @@ class dataPegawai extends CI_Controller{
 			$this->tambahData();
 		}else{
 			$nik 				= $this->input->post('nik');
+			$email 				= $this->input->post('email');
 			$nama_pegawai 		= $this->input->post('nama_pegawai');
 			$username	 		= $this->input->post('username');
 			$password	 		= md5($this->input->post('password'));
@@ -57,6 +58,7 @@ class dataPegawai extends CI_Controller{
 
 			$data = array(
 				'nik' 						=> $nik,
+				'email' 					=> $email,
 				'nama_pegawai' 				=> $nama_pegawai,
 				'username' 					=> $username,
 				'password' 					=> $password,
@@ -98,6 +100,7 @@ class dataPegawai extends CI_Controller{
 		}else{
 			$id 				= $this->input->post('id_pegawai');
 			$nik 				= $this->input->post('nik');
+			$email 				= $this->input->post('email');
 			$nama_pegawai 		= $this->input->post('nama_pegawai');
 			$username	 		= $this->input->post('username');
 			$password	 		= md5($this->input->post('password'));
@@ -121,6 +124,7 @@ class dataPegawai extends CI_Controller{
 
 			$data = array(
 				'nik' 						=> $nik,
+				'email' 					=> $email,
 				'nama_pegawai' 				=> $nama_pegawai,
 				'username' 					=> $username,
 				'password' 					=> $password,
@@ -147,6 +151,7 @@ class dataPegawai extends CI_Controller{
 
 	public function _rules(){
 		$this->form_validation->set_rules('nik','Nik','required');
+		$this->form_validation->set_rules('email','Email','required');
 		$this->form_validation->set_rules('nama_pegawai','Nama Pegawai','required');
 		$this->form_validation->set_rules('jenis_kelamin','Jenis Kelamin','required');
 		$this->form_validation->set_rules('jabatan','Jabatan','required');

@@ -49,6 +49,7 @@
                         <a class="collapse-item" href="<?php echo base_url('admin/dataAbsensi') ?>">Data Absensi</a>
                         <a class="collapse-item" href="<?php echo base_url('admin/potonganGaji') ?>">Settingan Potongan Gaji</a>
                         <a class="collapse-item" href="<?php echo base_url('admin/dataPenggajian') ?>">Data Gaji</a>
+                        <a class="collapse-item" href="<?php echo base_url('admin/tanggalMulaiTugas') ?>">TMT</a>
                     </div>
                 </div>
             </li>
@@ -86,11 +87,7 @@
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
 
-            <div class="sidebar-card d-none d-lg-flex">
-                <img class="sidebar-card-illustration mb-2" src="<?php echo base_url() ?>assets/img/undraw_rocket.svg" alt="...">
-                <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
-                <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
-            </div>
+            
 
 
         </ul>
