@@ -33,6 +33,6 @@
 - [Insatgaram](https://www.instagram.com/kasirun.sitorus/)
 - [Facebook](https://www.facebook.com/kasirun.sitorus)
 
-### By Kasirun Alfauzi BM Sitorus
+
 
   
