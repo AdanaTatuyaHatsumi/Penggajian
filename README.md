@@ -13,8 +13,7 @@
 - Untuk Mengetahui lebih lanjut silahkan hubungi Wa
 
 ## Minimum Requiements :
-- PHP 5.x
-- MySql 5.x
+- PHP 8.x
 
 ## Element :
 - PHP
